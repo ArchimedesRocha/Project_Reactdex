@@ -1,4 +1,4 @@
-export function Search() {
+export function Ssearch() {
   return (
     <section className="s-search">
       <div className="container">

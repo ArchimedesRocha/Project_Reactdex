@@ -3,13 +3,13 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
 //components
-import { SlideHeroOne } from "./slides/slide-s-hero-1";
-import { SlideHeroTwo } from "./slides/slide-s-hero-2";
-import { SlideHeroThree } from "./slides/slide-s-hero-3";
+import { SlideFooterOne } from "./slides/slide-footer-1";
+import { SlideFooterTwo } from "./slides/slide-footer-2";
+import { SlideFooterThree } from "./slides/slide-footer-3";
 
-export function Shero() {
+export function Footer() {
   return (
-    <section className="s-hero">
+    <footer>
       <Swiper
         spaceBetween={0}
         slidesPerView={1}
@@ -17,15 +17,15 @@ export function Shero() {
         onSwiper={(swiper) => console.log(swiper)}
       >
         <SwiperSlide>
-          <SlideHeroOne />
+          <SlideFooterOne />
         </SwiperSlide>
         <SwiperSlide>
-          <SlideHeroTwo />
+          <SlideFooterTwo />
         </SwiperSlide>
         <SwiperSlide>
-          <SlideHeroThree />
+          <SlideFooterThree />
         </SwiperSlide>
       </Swiper>
-    </section>
+    </footer>
   );
 }

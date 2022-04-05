@@ -1,4 +1,4 @@
-export function SlideThree() {
+export function SlideHeroThree() {
   return (
     <section className="s-slider-3">
       <div className="container">
